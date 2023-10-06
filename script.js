@@ -1,22 +1,25 @@
-console.log("Hello world")
+const arr = [1, 2, 3, 4, 5]
 
-function domManipulation() {
-    const rootElement = document.querySelector('#root')
-    console.log(rootElement)
-    rootElement.innerHTML = "This is done by dom manipulation "
+/* function returnDouble(number) {
+    return number * 2
 }
 
-window.addEventListener('load', domManipulation)
+for (let i = 0; i < arr.length; i++) {
+    console.log(returnDouble(arr[i]))
+} */
 
-function logClick() {
-    console.log('clicked')
+
+//const returnDouble2 = number => number * 2  //ha egy elemrol szol a fuggveny, es egy keplet , nincs zarojel es egy sorba lehet irni
+   
+
+/* function logDouble(number) {
+    console.log(number * 2)
 }
 
-window.addEventListener('click', logClick)
+arr.forEach(logDouble) */
 
-let tickCount = 0
+// inline callback
 
-function logTick() {
-    console.log(`tick ${tickCount}`)
-}
-window.setInterval(logTick, 1000)
+//arr.forEach(number => console.log(number * 2))
+
+
