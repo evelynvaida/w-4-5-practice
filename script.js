@@ -1,66 +1,19 @@
-const data = [
-    {
-        name: "kovacs janos",
-        age: 29,
-        subjects: [
-            {
-                subjectName: "Maths",
-                subjectGrade: 5
-            },
-            {
-                subjectName: "Physics",
-                subjectGrade: 3
-            },
-            {
-                subjectName: "English",
-                subjectGrade: 2
-            }
-        ]
-    },
-    {
-        name: "kis peter",
-        age: 16,
-        subjects: [
-            {
-                subjectName: "Maths",
-                subjectGrade: 2
-            },
-            {
-                subjectName: "Physics",
-                subjectGrade: 5
-            },
-            {
-                subjectName: "English",
-                subjectGrade: 4
-            }
-        ]
-    },    {
-        name: "lefold elek",
-        age: 65,
-        subjects: [
-            {
-                subjectName: "Maths",
-                subjectGrade: 4
-            },
-            {
-                subjectName: "Physics",
-                subjectGrade: 2
-            },
-            {
-                subjectName: "English",
-                subjectGrade: 5
-            }
-        ]
+/* const arr = ["egy", "ketto", "harom"]
+
+console.log(arr.includes("ketto"))
+
+console.log(["one", "two", "three", "four"].includes("four"))
+
+const obj = {
+    key1: "value",
+    key2: 10,
+    key3: function() {
+        console.log("hello")
     }
-]
+}
 
-/* for(let i=0;i<data.length;i++) {
-    console.log(data[i].name)
-} */
+console.log(obj.key3()) */
 
-//data.forEach(student => console.log(student.name))
+const str = "hello world"
 
-data.forEach(student => {
-    console.log(student.name)
-    student.subjects.forEach(subject => console.log(`${subject.subjectName}: ${subject.subjectGrade}`))
-})
+console.log(str.substring(3,8))
