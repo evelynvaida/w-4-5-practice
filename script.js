@@ -18,5 +18,6 @@ let tickCount = 0
 
 function logTick() {
     console.log(`tick ${tickCount}`)
+    tickCount++
 }
 window.setInterval(logTick, 1000)
